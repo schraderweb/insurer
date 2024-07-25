@@ -1,0 +1,107 @@
+.e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+  background-image: none !important;
+}
+@media screen and (max-height: 1024px) {
+  .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+  .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+  }
+}
+@media screen and (max-height: 640px) {
+  .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+  .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+    background-image: none !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .question h2 {
+    font-size: 24px !important;
+  }
+}
+.question {
+  text-align: center;
+}
+.cta_btn {
+  text-align: center;
+  background-color: #e9a800;
+  border-radius: 3px;
+  padding: 15px 0px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+  display: block;
+  cursor: pointer;
+}
+#q2,
+#loading1,
+#loading2,
+#loading3,
+#qualify,
+#q3,
+#q4,
+#q5 {
+  display: none;
+}
+.elementor-field-type-previous {
+  display: none !important;
+}
+.boxme {
+  text-align: center;
+  padding: 40px 15px;
+  background-color: #fff;
+  border-top: 5px solid #00007c;
+  font-size: 14px;
+  line-height: 1.75;
+  font-weight: 400;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 20%);
+  transition: all 0.2s ease;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade-in {
+  animation: fade-in;
+  animation-duration: 0.5s;
+}
+.fade-out {
+  animation: fade-out;
+  animation-duration: 0.5s;
+}
+.loading {
+  font-size: 24px;
+  font-weight: bold;
+}
+.qualifyHeadline {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2fbdaa;
+  margin-bottom: 20px;
+}
+.loadingCopy {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.question h2 {
+  font-family: Poppins;
+  font-size: 28px;
+}
+#cta_fname {
+  text-transform: capitalize;
+}
